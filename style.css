@@ -1,0 +1,95 @@
+* {
+  margin: 0; /* Remover margens padrão */
+  padding: 0; /* Remover preenchimento padrão */
+  box-sizing: border-box; /* Incluir bordas e preenchimento no cálculo do tamanho total */
+  font-family: Arial, Helvetica, sans-serif; /* Definir uma fonte padrão para o site */
+}
+
+body {
+  background-color: #1b1b1b; /* Cor de fundo escura */
+  color: white; /* Cor do texto clara para contraste */
+  height: 100vh; /* Ocupa toda a altura da janela */
+  display: flex; /* Usar Flexbox para centralizar o conteúdo */
+  flex-direction: column;/* Organizar os elementos em coluna */
+}
+
+/* HEADER -- Estilização do cabeçalho */ 
+header { 
+  display: flex; /* Usar Flexbox para organizar os elementos do cabeçalho */
+  justify-content: space-between; /* Distribuir os elementos com espaço entre eles */
+  padding: 20px 50px; /* Adicionar preenchimento ao redor do conteúdo do cabeçalho */
+}
+
+/* LOGO -- Estilização do logo */
+.logo { 
+  font-weight: bold; /* Deixar o texto do logo em negrito */
+  color: #b4ff39; /* Cor verde para o logo */
+}
+
+/* BOTÕES -- Estilização dos botões */
+.btn {
+  background-color: #b4ff39; /* Cor de fundo verde para os botões */
+  color: black; /* Cor do texto preta para contraste */
+  padding: 8px 15px; /* Adicionar preenchimento para os botões */
+  border-radius: 20px; /* Bordas arredondadas para os botões */
+  text-decoration: none; /* Remover sublinhado dos links */
+  font-weight: bold; /* Deixar o texto dos botões em negrito */
+  align-content: center; /* Alinhar o conteúdo dos botões ao centro */
+}
+
+/*SOCIAL MEDIA -- Estilização dos ícones de redes sociais */
+.social {
+  display: flex; /* Usar Flexbox para organizar os ícones de redes sociais */
+  justify-content: center; /* Centralizar os ícones de redes sociais horizontalmente */
+  gap: 20px; /* Adicionar espaço entre os ícones de redes sociais */
+  padding-bottom: 30px; /* Adicionar preenchimento inferior para separar os ícones do rodapé */
+}
+
+.social img {
+  background-color: #b4ff39; /* Cor de fundo verde para os ícones de redes sociais */
+  color: black; /* Cor do texto preta para contraste */
+  padding: 10px; /* Adicionar preenchimento para os ícones de redes sociais */
+  border-radius: 10px; /* Bordas arredondadas para os ícones de redes sociais */
+  text-decoration: none; /* Remover sublinhado dos links dos ícones de redes sociais */
+  font-weight: bold; /* Deixar o texto dos ícones de redes sociais em negrito */
+}
+
+/*MAIN -- Estilização do conteúdo principal */
+main {
+  flex: 1; /* Permitir que o conteúdo principal ocupe o espaço restante da página */
+  display: flex; /* Usar Flexbox para organizar o conteúdo principal */
+  align-items: center; /* Alinhar os itens do conteúdo principal verticalmente ao centro */
+  justify-content: center; /* Centralizar os itens do conteúdo principal horizontalmente */
+  gap: 40px; /* Adicionar espaço entre os itens do conteúdo principal */
+}
+
+/*TEXT -- Estilização do texto do conteúdo principal */
+.content h1 {
+  font-size: 48px; /* Aumentar o tamanho da fonte do título */
+}
+
+.content span {
+  color: #b4ff39; /* Cor verde para destacar o texto */
+}
+
+.content p {
+  margin-top: 10px; /* Adicionar margem superior para o parágrafo */
+  margin-bottom: 10px; /* Adicionar margem superior e inferior para o parágrafo */
+  color: #ccc; /* Cor cinza clara para o parágrafo */
+}
+
+/*IMAGE -- Estilização da imagem do conteúdo principal */
+.image img {
+  width: 300px; /* Definir largura e altura fixas para a imagem */
+  height: 300px; 
+  border-radius: 50%; /* Tornar a imagem circular */
+  object-fit: cover; /* Garantir que a imagem preencha o espaço sem distorção */
+}
+
+/*FOOTER -- Estilização do rodapé */
+footer {
+  background-color: #1b1b1b; /* Cor de fundo escura para o rodapé */
+  color: #ccc; /* Cor do texto cinza claro para o rodapé */
+  text-align: center; /* Centralizar o texto do rodapé */
+  padding: 20px; /* Adicionar preenchimento ao redor do conteúdo do rodapé */
+}
